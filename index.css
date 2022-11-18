@@ -1,0 +1,25 @@
+#leftRow>div,
+#rightRow>div {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+}
+
+#leftRow,
+#rightRow {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+#seats {
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+}
+
+#main {
+    width: 60px;
+    margin: 30px auto;
+    text-align: center;
+}
